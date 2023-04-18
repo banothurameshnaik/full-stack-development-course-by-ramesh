@@ -1,0 +1,54 @@
+Course Introduction?
+
+What is Website?
+    Content
+        Text
+        Images
+        Videos
+    Server
+        Domain - URL
+    Multiple pages
+    
+Types of Website?
+    1. Static
+        Doesn't change over the time
+        User cann't make any changes or actions
+        View purpose
+        Ex: Blogs
+    2. Dynamic
+        Ex: Stock
+
+Standards
+
+Markup -> Code + Browser + View
+
+What is HTML?
+    Hyper Text Markup Language - 1991
+
+    HTML 5 - 2014 -> Major
+
+How to Write HTML?
+
+1. File structure
+
+    filename.html
+
+    lowercase
+        - home.html
+
+2. Code structure
+
+    Visual Studio Code
+    Google Chrome
+
+3. HTML Elements
+    <startingtag> 
+    
+    ...content...
+        <asdfas>
+        ...asdf
+        </asdfas>
+
+    </closingtag>
+
+    Multiple HTML Elements
