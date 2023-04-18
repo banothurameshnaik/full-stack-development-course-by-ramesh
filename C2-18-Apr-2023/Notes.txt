@@ -1,0 +1,63 @@
+<tag> .... content </tag>
+    <p>
+        This is <b> paragraph </b>
+    </p>
+
+    HTML Elements can have nested tags
+
+Empty Tags / Self closing tags
+<tag>
+    ex: 
+        <br>
+        <hr>
+
+HTML Body Tag
+    background
+    bgcolor
+
+HTML Elements
+    An HTML element is defined by a start tag, some content, and an end tag.
+    HTML elements can be nested (this means that elements can contain other elements).
+    HTML tags are not case sensitive: <P> means the same as <p>.
+
+Empty Elements
+    HTML elements with no content are called empty elements.
+
+HTML Heading Tags
+    HTML headings are titles or subtitles that you want to display on a webpage.
+    HTML headings are defined with the <h1> to <h6> tags.
+    <h1> defines the most important heading. <h6> defines the least important heading.
+
+HTML Paragraphs
+    The HTML <p> element defines a paragraph.
+    
+HTML Tags hr, br, pre
+    Horizontal Line
+    Break Line
+    Pre
+
+HTML Anchor Tag
+    Bookmarks
+
+HTML Image Tag:
+    src
+    width
+    height
+
+HTML Formatting tags:
+    To Make Text Bold
+        <b> ... </b>
+        <strong>...</strong> 
+    To Make Text Italic
+        <i> ... </i>
+        <em> ... </em>
+    To Make Text Underline
+        <u> ... </u>
+        <ins> ... </ins>
+    To create text as Superscript, Subscript
+        <sup> ... </sup>
+        <sub> ... </sub>
+    To Strike the Text
+        <strike> ... </strike>
+        <s> ... </s>
+        <del> ... </del>	
