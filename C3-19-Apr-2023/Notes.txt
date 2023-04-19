@@ -1,0 +1,35 @@
+HTML Attributes
+
+<a href="https://www.google.com" target="_blank">Google</a>
+
+2. We always html attributes start tag only
+3. HTML Atribute format key="value"
+4. <p> This is paragraph </p>
+
+<html lang="us-eg">
+
+    <body bgcolor="blue">
+        <p></p>
+    </body>
+</html>
+
+
+HTML Images
+
+HTML Style Attribute
+
+style attribute - CSS
+
+font-size
+font-family
+color
+visited-color
+
+
+HTML Tables
+
+HTML Lists
+
+
+HTML Forms
+
