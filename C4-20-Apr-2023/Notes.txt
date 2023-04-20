@@ -1,0 +1,45 @@
+HTML Styles
+    Inline Style
+        using style attribute
+        key: value; key2: value2; key3: value3;
+
+        style="key: value; key2: value2; key3: value3;"
+    Internal Style
+        using style tag in the head section
+    External Style
+        using external file .css and importing into HTML
+
+HTML Tables
+    <table>
+    <tr>
+    <th>
+    <td>
+    <thead>
+    <caption> 
+        - You can add a caption that serves as a heading for the entire table.
+        - Note: The <caption> tag should be inserted immediately after the <table> tag.
+    <tbody>
+    border-collapse: collapse;
+    colspan
+    rowspan
+
+HTML Lists:
+
+    <ul>
+        list-style-type: disc, circle, square, none
+    <li>
+        type="1", "A", "a", "I", "i"
+    <ol>
+
+
+    An unordered HTML list:
+        - Item
+        - Item
+        - Item
+        - Item
+    An ordered HTML list:
+
+        1. First item
+        2. Second item
+        3. Third item
+        4. Fourth item
