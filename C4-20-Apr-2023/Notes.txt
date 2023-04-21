@@ -22,24 +22,3 @@ HTML Tables
     border-collapse: collapse;
     colspan
     rowspan
-
-HTML Lists:
-
-    <ul>
-        list-style-type: disc, circle, square, none
-    <li>
-        type="1", "A", "a", "I", "i"
-    <ol>
-
-
-    An unordered HTML list:
-        - Item
-        - Item
-        - Item
-        - Item
-    An ordered HTML list:
-
-        1. First item
-        2. Second item
-        3. Third item
-        4. Fourth item
