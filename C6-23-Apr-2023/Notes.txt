@@ -1,0 +1,67 @@
+HTML Form:
+    Checkboxes and Radio Buttons
+    checked="true"
+    Select optgroup tag.
+        <select>
+            <option>Select</option>
+            <optgroup label="Web Designing">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+                <option>Bootstrap</option>
+            </optgroup>
+            <optgroup label="Web Development">
+                <option>jQuery</option>
+                <option>PHP</option>
+                <option>MySQL</option>
+                <option>SEO</option>
+            </optgroup>
+        </select>
+    HTML Input Type File
+        Select File To Upload: <input type="file">
+
+    HTML Input Type Button:
+        There are three types of buttons in form
+        <input type="button" value="Simple Button">
+        <input type="submit" value="Submit Button">
+        <input type="reset" value="Reset Button">
+    HTML Form Required Fields:
+        <input type="text" required="true">
+
+HTML Audio & Video Tag:
+    <video width="320" height="240" controls>
+
+        https://file-examples.com/storage/feee5c69f0643c59da6bf13/2017/04/file_example_MP4_480_1_5MG.mp4
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+    <audio controls>
+        <source src="horse.mp3" type="audio/mpeg">
+        <source src="horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+HTML Marquee Tag:
+    <marquee behavior="scroll" height="50" scrollamount="20">
+        Marquee with behavior Scroll
+    </marquee>
+    <marquee behavior="slide" height="50" scrollamount="20">
+        Marquee with behavior Slide
+    </marquee>
+    <marquee behavior="alternate" height="50" scrollamount="20">
+        Marquee with behavior alternate
+    </marquee>
+
+HTML iframe Tag:
+    <iframe src="https://www.youtube.com/embed/pJODvKgEyWA" height="500px" width="500px" frameborder="1">
+    </iframe>
+
+HTML Div & Span Tags:
+    Unlike other HTML tags, these 2 tag display nothing unless CSS Properties are applied. 
+    The <div> and <span> tag allow you to group together several elements to create sections or subsections of a page.
+
+HTML End Session:
+    Thank you.
+    Ramesh

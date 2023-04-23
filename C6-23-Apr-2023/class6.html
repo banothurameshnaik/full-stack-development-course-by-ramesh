@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Full Stack Development By Ramesh</title>
+
+    </head>
+    <body>
+        <!-- Forms -->
+        <div>
+            <h2>Forms</h2>
+
+            <h3>Signup</h3>
+            <!-- HTML Input Elements -->
+            <!-- Text, Checkbox, Radio, Dropdown, Textarea -->
+
+            <!-- Firstname -->
+            <!-- Lastname -->
+            <!-- Phone Number -->
+            <!-- Email -->
+            <!-- Gender - Radio Buttons -->
+            <!-- Country - Dropdowns -->
+            <!-- Biodata -->
+            <!-- ?name=value&name=value&name=value -->
+            <!-- ?firstname=Ramesh&lastname=Naik&phoneNumber=99123 -->
+
+            <!-- <form>
+                <fieldset>
+                    <legend>Signup here</legend>
+                    <label></label>
+                    <input type="" />
+
+                    <select>
+                        <option></option>
+                    </select>
+
+                    <textarea></textarea>
+                </fieldset>
+            </form> -->
+            <form style="width: 500px" method="post" action="https://www.rameshnaik.in/createuser.php">
+                <fieldset>
+                    <legend>Signup here by filling</legend>
+
+                    <label for="firstname">Enter your firstname: </label>
+                
+                    <input name="firstname" type="text" placeholder="Enter your firstname" /><br />
+
+                    <label>Lastname: </label>
+                    <input name="lastname" type="text" placeholder="Enter your lastname" /><br />
+
+                    <label>Password</label>
+                    <input name="password" type="password" placeholder="Enter your password" /><br />
+
+                    <label>Phone Number: </label>
+                    <input name="phoneNumber" type="tel" placeholder="Enter your phoner number" required="true" /><br />
+
+                    <label>Email: </label>
+                    <input name="email" type="email" placeholder="Enter your email" required="true" /><br />
+
+                    <label>Gender: </label>
+                    <input name="gender" type="radio" value="male" /> Male 
+                    <input name="gender" type="radio" value="female" checked="true" /> Female
+                    <br />
+
+                    <input name="terms" type="checkbox" checked="false" />
+                    <label>I agree to terms and conditions by signup!</label>
+
+                    <br />
+                    <label>Biodata: </label>
+                    <textarea name="biodata" rows="10" cols="30">I have studied in my school!</textarea>
+
+                    <br />
+                    <label>Country:</label>
+                    <select>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <option>Pakistan</option>
+                    </select>
+
+                    <br />
+                    <label>Date Of Birth:</label>
+                    <input name="dob" type="date"  />
+
+                    <br />
+                    <label>Select some resume:</label>
+                    <input name="resume" type="file"  />
+
+                    <br />
+
+                    <br />
+                    <br />
+                    <input type="submit" />
+                </fieldset>
+            </form>
+
+            <h3>Video Tag</h3>
+            <video controls width="500px" height="400px" autoplay muted>
+                <source src="https://file-examples.com/storage/feee5c69f0643c59da6bf13/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/wav" />
+                Your browser is not supported for video
+            </video>
+            <h3>Audio Tag</h3>
+            <audio controls  autoplay muted>
+                <source src="file_example_MP3_700KB.mp3" type="audio/mp3" />
+            </audio>
+
+
+            <h3>Marquee - Scrolling</h3>
+
+            <div style="border: 3px solid black;">
+
+                <marquee behavior="scroll" height="350" scrollamount="10" direction="up">
+                    Marquee with behavior Scroll
+                </marquee>
+                <marquee behavior="slide" height="50" scrollamount="20">
+                    Marquee with behavior Slide
+                </marquee>
+                <marquee behavior="alternate" height="50" scrollamount="20">
+                    Marquee with behavior alternate
+                </marquee>
+            </div>
+
+            <h3>Youtube Video Player</h3>
+            <iframe src="https://www.youtube.com/embed/pJODvKgEyWA" height="500px" width="500px" frameborder="1">
+            </iframe>
+        </div>
+    </body>
+</html>
