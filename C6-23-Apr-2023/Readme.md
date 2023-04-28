@@ -1,4 +1,4 @@
-# Class 5 - HTML Forms, HTML Video/Audio Tags, HTML Scolling
+# Class 6 - HTML Forms, HTML Video/Audio Tags, HTML Scolling
 
 In this `class6.html` you can learn
 
