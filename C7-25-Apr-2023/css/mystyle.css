@@ -1,0 +1,55 @@
+ /* External CSS */
+ h1 {
+    color: blue;
+    text-align: center;
+    padding: 100px;
+}
+
+p {
+    color: red;
+    font-size: 18px
+}
+
+div {
+    width: 100%;
+    background-color: darkgray;
+    border: 2px solid red;
+}
+
+#intro {
+    background-color: darkmagenta;
+}
+
+.world {
+    background-color: darkmagenta;
+}
+
+.ramesh {
+    font-size: 100px;
+}
+
+p:hover {
+    color: darkorange;
+}
+
+* {
+    color: darkorange;
+}
+
+/* Grouping selectors */
+h1,
+h3,
+#intro {
+    color: rgb(0, 89, 255);
+    padding: 20px;
+}
+
+/* h3 {
+    color: red;
+    padding: 20px;
+}
+
+#intro {
+    color: red;
+    padding: 20px;
+} */
